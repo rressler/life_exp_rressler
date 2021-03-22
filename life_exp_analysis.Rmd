@@ -21,7 +21,7 @@ new stuff
 
 # my Life Expectancy Analysis
 - I have added some comments here for my branch 
-and now I deleted some
+and now I deleted some and then added some more
 
 
 ```{r}
