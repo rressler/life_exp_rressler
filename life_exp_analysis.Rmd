@@ -20,7 +20,9 @@ new stuff
 
 
 # my Life Expectancy Analysis
-- I have added some comments here for my branch once again
+- I have added some comments here for my branch 
+and now I deleted some and then added some more
+
 
 ```{r}
 library(tidyverse)
