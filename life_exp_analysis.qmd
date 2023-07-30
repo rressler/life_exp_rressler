@@ -38,3 +38,5 @@ sumdat |>
   ylab("Maximum Life Expectancy") +
   scale_color_discrete(name = "Country")
 ```
+
+This is a lovely plot of life expectancies.
