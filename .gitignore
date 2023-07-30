@@ -4,3 +4,13 @@
 `Ruserdata
 .Rproj
 .DS_Store
+/.quarto/
+/_freeze
+*_cache/
+*_files/
+./*/data/court_act_rds/
+*_cache/
+*.html
+/_book/
+.DS_Store
+./pde_pdf_docs/*/
