@@ -40,3 +40,5 @@ sumdat |>
 ```
 
 This is a lovely plot of life expectancies.
+
+I really like it a lot.
