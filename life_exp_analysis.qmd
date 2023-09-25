@@ -14,35 +14,3 @@ library(tidyverse)
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
-The graph below provides insights into an enduring relationship between maximum Life Expectancy and birth year showing the increase in maximum life expectancy for each new generation.
-
-# Analysis
-
-```{r}
-#| message: false
-gapminder::gapminder_unfiltered  |> 
-  group_by(year) |>
-  filter(lifeExp == max(lifeExp)) |>
-  ungroup() |>
-  select(year, country, lifeExp) |>
-  arrange(year) ->
-  sumdat
-
-sumdat |> 
-  ggplot(aes(x = year, y = lifeExp)) +
-  geom_point(aes(color = country)) +
-  geom_point(pch = 1) +
-  theme_bw() +
-  geom_smooth(method = "lm", se = FALSE) +
-  xlab("Year") +
-  ylab("Maximum Life Expectancy") +
-  scale_color_discrete(name = "Country")
-```
-
-This is a lovely plot of life expectancies.
-
-I really like it a lot.
-
-
-This team workflow is really nice.
-
